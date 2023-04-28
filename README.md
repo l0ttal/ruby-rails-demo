@@ -1,9 +1,7 @@
-# README
+# ruby-rails-demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails seminar project for HH course Ohjelmistokehityksen teknologioita
 
-Things you may want to cover:
 
 - Ruby version
 
@@ -22,7 +20,3 @@ Things you may want to cover:
 - Deployment instructions
 
 - ...
-
-# ruby-rails-demo
-
-Ruby on Rails seminar project for HH course Ohjelmistokehityksen teknologioita
