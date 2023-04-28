@@ -1,23 +1,18 @@
-# ruby-rails-demo
+# Ruby on Rails app
 
 Ruby on Rails seminar project for HH course Ohjelmistokehityksen teknologioita
 
-- Ruby version: ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-darwin22]
-
+- Ruby version: 3.2.2
 - Rails version: 7.0.4.3
 
-- System dependencies
+## Usage
 
-- Configuration
+Make sure you have Ruby (version >= 2.7.0) and Rails [installed](https://guides.rubyonrails.org/getting_started.html).
 
-- Database creation
+Start the development server:
 
-- Database initialization
+```
+bin/rails server
+```
 
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+And in your web browser go to [localhost:3000](https://localhost:3000)
