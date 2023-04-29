@@ -16,3 +16,6 @@ bin/rails server
 ```
 
 And in your web browser go to [localhost:3000](https://localhost:3000)
+
+- Add new article: /articles/new
+- View individual articles: /articles/{id}
