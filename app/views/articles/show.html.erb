@@ -1,20 +1,32 @@
 <h1><%= @article.title %></h1>
 
-<p><%= @article.body %></p>
+<p class="article-body"><%= @article.body %></p>
 
-<ul>
-  <li><%= link_to "Edit", edit_article_path(@article) %></li>
-	<li><%= link_to "Destroy", article_path(@article), data: {
-									turbo_method: :delete,
-									turbo_confirm: "Are you sure?"
-								} %>
-	</li>
-</ul>
+<span class="article-buttons">
+	<span class="button">
+		<%= link_to "Edit", edit_article_path(@article) %>
+	</span>
 
-<h2>Comments</h2>
-<%= render @article.comments %>
+	<span class="button">
+	<%= link_to "Destroy", article_path(@article), data: {
+										turbo_method: :delete,
+										turbo_confirm: "Are you sure?"
+									} %>
+	</span>
+</span>
 
-<h2>Add a comment:</h2>
-<%= render 'comments/form' %>
+<span class="comments-span">
+	<span class="comments-box">
+		<h2>Leave a comment</h2>
+		<%= render 'comments/form' %>
+	</span>
 
-<%= link_to "Back home", articles_path %>
+	<span class="comments-box">
+		<h2>Comments</h2>
+		<%= render @article.comments %>
+	</span>
+</span>
+
+<span class="button">
+	<%= link_to "Back home", articles_path %>
+</span>
